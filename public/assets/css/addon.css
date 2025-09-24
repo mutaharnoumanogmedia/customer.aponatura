@@ -1,0 +1,224 @@
+.btn.dropdown-toggle{
+    border-radius: 30px;
+}
+.btn{
+    border-radius: 30px !important;
+    font-size: 16px;
+}
+
+
+
+
+/* User Dropdown Styles */
+.user-dropdown-toggle {
+     border-radius: 50px;
+    transition: all 0.3s ease;
+    border: none;
+    background: transparent;
+}
+
+.user-dropdown-toggle:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    transform: translateY(-1px);
+}
+
+/* User Avatar Styles */
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+
+.user-avatar-large {
+    width: 48px;
+    height: 48px;
+    position: relative;
+}
+
+.avatar-img, .avatar-img-large {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-placeholder {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: 2px solid #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-placeholder-large {
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: 2px solid #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.avatar-placeholder i,
+.avatar-placeholder-large i {
+    font-size: 16px;
+}
+
+/* User Info Styles */
+.user-info {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.user-name {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 1px;
+}
+
+.user-role {
+    font-size: 0.75rem;
+    color: #6b7280;
+    text-transform: capitalize;
+}
+
+/* Dropdown Arrow Animation */
+.dropdown-arrow {
+    font-size: 0.75rem;
+    color: #6b7280;
+    transition: transform 0.3s ease;
+}
+
+.show .dropdown-arrow {
+    transform: rotate(180deg);
+}
+
+/* Enhanced Dropdown Menu */
+.user-dropdown-menu {
+    border: none;
+    border-radius: 12px;
+    padding: 0;
+    min-width: 280px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    overflow: hidden;
+}
+
+/* User Header in Dropdown */
+.user-header {
+    background: whitesmoke;
+    color: black;
+    padding: 1.25rem;
+    border: none;
+    margin: 0;
+}
+
+.user-name-large {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.user-email {
+    font-size: 0.875rem;
+    opacity: 0.9;
+}
+
+/* Enhanced Dropdown Items */
+.dropdown-item-enhanced {
+    display: flex;
+    align-items: center;
+    padding: 0.875rem 1.25rem;
+    border: none;
+    transition: all 0.2s ease;
+    text-decoration: none;
+}
+
+.dropdown-item-enhanced:hover {
+    background-color: #f8fafc;
+    transform: translateX(4px);
+}
+
+.dropdown-item-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.875rem;
+    background-color: #f1f5f9;
+    color: #64748b;
+    transition: all 0.2s ease;
+}
+
+.dropdown-item-enhanced:hover .dropdown-item-icon {
+    background-color: #e2e8f0;
+    color: #475569;
+}
+
+.logout-item:hover .dropdown-item-icon {
+    background-color: #fee2e2;
+    color: #dc2626;
+}
+
+.dropdown-item-content {
+    flex: 1;
+    line-height: 1.3;
+}
+
+.item-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #374151;
+    margin-bottom: 1px;
+}
+
+.item-subtitle {
+    font-size: 0.75rem;
+    color: #6b7280;
+}
+
+/* Custom Divider */
+.user-dropdown-menu .dropdown-divider {
+    margin: 0.5rem 0;
+    border-color: #e5e7eb;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .user-dropdown-menu {
+        min-width: 260px;
+    }
+    
+    .user-header {
+        padding: 1rem;
+    }
+    
+    .dropdown-item-enhanced {
+        padding: 0.75rem 1rem;
+    }
+}
+
+/* Animation for dropdown appearance */
+.user-dropdown-menu {
+    animation: dropdownFadeIn 0.2s ease-out;
+}
+
+@keyframes dropdownFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.no-arrow > .dropdown-toggle::after
+{
+    display: none;
+}

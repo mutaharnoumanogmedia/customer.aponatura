@@ -1,0 +1,17 @@
+{
+    "name": "Kundenportal baaboo",
+    "short_name": "KPB",
+    "start_url": "/",
+    "background_color": "#6777ef",
+    "description": "lundenportal baaboo",
+    "display": "fullscreen",
+    "theme_color": "#ff5f00",
+    "icons": [
+        {
+            "src": "/images/icons/ios/512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}

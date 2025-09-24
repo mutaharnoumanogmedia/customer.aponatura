@@ -1,0 +1,17 @@
+{
+    "name": "Kundenportal baaboo",
+    "short_name": "baaboo portal",
+    "start_url": "/",
+    "background_color": "#ffffff",
+    "description": "kundenportal baaboo",
+    "display": "fullscreen",
+    "theme_color": "#ff5f00",
+    "icons": [
+        {
+            "src": "public/images/icons/ios/512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        }
+    ]
+}
