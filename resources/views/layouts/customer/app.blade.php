@@ -176,7 +176,7 @@
                             <div class="dropdown-divider"></div>
 
                             <!-- Menu Items -->
-                            <a class="dropdown-item dropdown-item-enhanced" href="{{ route('customer.profile') }}">
+                            {{-- <a class="dropdown-item dropdown-item-enhanced" href="{{ route('customer.profile') }}">
                                 <div class="dropdown-item-icon">
                                     <i class="bi bi-person"></i>
                                 </div>
@@ -184,7 +184,7 @@
                                     <div class="item-title">{{ __('Profile') }}</div>
                                     <div class="item-subtitle">{{ __('Manage your account') }}</div>
                                 </div>
-                            </a>
+                            </a> --}}
 
                             <a class="dropdown-item dropdown-item-enhanced" href="{{ route('customer.settings') }}">
                                 <div class="dropdown-item-icon">

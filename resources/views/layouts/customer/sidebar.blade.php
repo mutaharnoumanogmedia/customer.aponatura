@@ -68,7 +68,7 @@
             <li>
                 <div class="sidebar-divider"></div>
             </li>
-            <li class="sidebar-item">
+            {{-- <li class="sidebar-item">
                 <a href="{{ route('customer.profile') }}" class="sidebar-link">
                     <i class="bi bi-person"></i>
                     <span>{{ __('My Profile') }}</span>
@@ -79,7 +79,7 @@
                     <i class="bi bi-gear"></i>
                     <span>{{ __('Settings') }}</span>
                 </a>
-            </li>
+            </li> --}}
             <li>
                 <div class="sidebar-divider"></div>
             </li>
