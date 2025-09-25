@@ -215,7 +215,7 @@
                                 </div>
 
                                 <center>
-                                    <a href="{{ $brand->website_url }}" class="btn btn-primary mt-3">
+                                    <a href="{{ $brand->website_url }}" class="btn btn-primary mt-3" target="_blank">
                                         <i class="bi bi-plus-circle me-1"></i>
                                         {{ __('Place a new order') }}
                                     </a>
