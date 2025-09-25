@@ -240,5 +240,7 @@
     "login.welcome-back-subheading": "Your personalized shopping experience awaits. Login to access your orders, track deliveries, and more.",
     "login.feature1": "Manage your orders and track their status",
     "login.feature2": "Get instant customer support",
-    "login.feature3": "Keep track of your deliveries in real-time"
+    "login.feature3": "Keep track of your deliveries in real-time",
+    "magic-link.sent_success": "<b>We’ve sent you a magic link!</b><br>Please check your email inbox as well as your spam folder.Sometimes it may take a few minutes for the email to arrive.If you don’t see it, please refresh your inbox. <br> 👉 Click the link in the email to log in.",
+    "magic-link.sent_failed": "An error occurred while processing your request. Please try again later."
 }

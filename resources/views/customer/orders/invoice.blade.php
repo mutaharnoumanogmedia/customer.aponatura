@@ -278,20 +278,6 @@
                 </div>
             </div>
         </div>
-
-
-        <div class="row no-print">
-            <div class="col">
-                <div class="d-flex justify-content-end gap-2">
-                    <button class="btn btn-dark btn-print">
-                        <i class="bi bi-printer me-2"></i> Print Invoice
-                    </button>
-                    <button class="btn btn-primary btn-pdf">
-                        <i class="bi bi-download me-2"></i> Download PDF
-                    </button>
-                </div>
-            </div>
-        </div>
     </div>
 
 

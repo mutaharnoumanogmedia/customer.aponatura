@@ -65,10 +65,7 @@ class MagicLinkController extends Controller
                     'message' => 'We’ve sent you a magic link! Please check your email inbox or spam folder.'
                 ]);
             }
-            return back()->with('success', '<b>We’ve sent you a magic link!</b>
-                    <br><br>
-                    Please check your email inbox or spam folder. Sometimes it can take a few minutes
-                    to arrive. If you don’t see it, try refreshing your inbox</b>');
+            return back()->with('success', __("magic-link.sent_success"));
         } catch (\Exception $e) {
             if ($request->is('api/*')) {
                 return response()->json([
@@ -76,7 +73,7 @@ class MagicLinkController extends Controller
                     'message' => 'An error occurred while processing your request. Please try again later.'
                 ], 500);
             }
-            return back()->with('error', 'An error occurred while processing your request. Please try again later.\n' . $e->getMessage());
+            return back()->with('error', __("magic-link.sent_failed") . $e->getMessage());
         }
     }
 

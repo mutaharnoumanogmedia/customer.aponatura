@@ -241,5 +241,7 @@
     "login.welcome-back-subheading": "Dein personalisiertes Einkaufserlebnis erwartet dich. Melde dich an, um auf deine Bestellungen, Lieferverfolgung und mehr zuzugreifen.",
     "login.feature1": "Verwalte deine Bestellungen und verfolge ihren Status",
     "login.feature2": "Erhalte sofortige Kundenunterstützung",
-    "login.feature3": "Verfolge deine Lieferungen in Echtzeit"
+    "login.feature3": "Verfolge deine Lieferungen in Echtzeit",
+    "magic-link.sent_success": "<b>Wir haben dir einen Magic Link geschickt!</b><br>Bitte überprüfe dein E-Mail-Postfach sowie den Spam-Ordner.Manchmal kann es ein paar Minuten dauern, bis die Nachricht ankommt.Falls du sie nicht findest, lade dein Postfach bitte erneut. <br> 👉 Klicke auf den Link in der E-Mail, um dich anzumelden.",
+    "magic-link.sent_failed": "Ein Fehler ist aufgetreten, während Ihre Anfrage bearbeitet wurde. Bitte versuchen Sie es später noch einmal."
 }
