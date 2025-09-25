@@ -34,10 +34,10 @@
             }
         </style>
     @endif
-
+    
     @yield('style')
-
     @include('pwa.metatags')
+
     @laravelPWA
 
 

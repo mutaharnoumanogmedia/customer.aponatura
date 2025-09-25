@@ -57,8 +57,10 @@
                     <span class="notranslate">{{ __('Chat with us') }}</span>
                 </a>
             </li> --}}
-            <li class="sidebar-item ">
-                <a href="http://support.aponatura.de" target="_blank" class="sidebar-link">
+         
+             <li class="sidebar-item ">
+                <a href="javascript:void(0);" class="sidebar-link"
+                    onclick="confirmSupportRedirect('{{ Session::get('support_magic_link') }}')">
                     <i class="bi bi-headset"></i>
                     <span class="notranslate">{{ __('Contact Support') }}</span>
                 </a>

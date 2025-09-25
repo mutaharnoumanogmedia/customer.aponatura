@@ -88,7 +88,7 @@ class MagicLinkController extends Controller
         $credentials = ["email" => $user->email, "password" => bcrypt("123456789")];
         if (Auth::guard('customer')->attempt($credentials)) {
             $this->magicLinkService->setSupportMagicLinkUser($user->email);
-            $this->magicLinkService->getBaabooBooksMagicLink($user->email, $user->name);
+            // $this->magicLinkService->getBaabooBooksMagicLink($user->email, $user->name);
             return redirect()->route('customer.dashboard');
         } else {
             return back()->with("error", "Issue error magic link login");
