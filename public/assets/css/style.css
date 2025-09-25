@@ -1,11 +1,11 @@
 :root {
     --sidebar-width: 240px;
-    --primary-color: #ff5f00;
-    --secondary-color: #0D0D0D;
+    --primary-color: #1eb100;
+    --secondary-color: #ed230d;
     --dark-color: #0D0D0D;
     --light-color: #f1f5f9;
-    --primary-color-shadow: rgba(255, 95, 0, 0.2);
-    --gradient-1: linear-gradient(135deg, #ff5f00 0%, #ff8533 100%);
+    --primary-color-shadow: rgba(30, 177, 0, 0.2);
+    --gradient-1: linear-gradient(135deg, #1eb100 0%, #1eb100 100%);
     --gradient-2: linear-gradient(135deg, #0D0D0D 0%, #334155 100%);
     --card-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     --card-shadow-hover: 0 10px 5px rgba(0, 0, 0, 0.15);
