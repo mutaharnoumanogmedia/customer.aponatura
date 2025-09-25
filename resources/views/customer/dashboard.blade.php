@@ -12,19 +12,10 @@
                 <h1 class="dashboard-title notranslate">
                     {{ __('Welcome') }} {{ ucwords(auth()->guard('customer')->user()->name) }}!
                 </h1>
-                {{-- <div class="header-actions">
-                    <a href="{{ env('APP_AFFILIATE_URL') . '/register-from-portal?user_id=' . auth()->guard('customer')->user()->id }}"
-                        class="btn btn-sm btn-success me-4" target="_blank">
-                        <i class="bi bi-people-fill me-1"></i> {{ __('Become an affiliate') }} </a>
-                    <a href="{{ $brand->website_url }}" class="btn btn-sm btn-primary">
-                        <i class="bi bi-plus-circle me-1"></i> {{ __('New Order') }}
-                    </a>
-                </div> --}}
+               
 
                 <div class="header-actions">
-                    <a href="{{ $affiliate_register_link }}" class="btn btn-sm btn-success me-4" target="_blank"
-                        onclick="addClickLog('partner.baaboo.com_affiliate_link');">
-                        <i class="bi bi-people-fill me-1"></i> {{ __('Become an affiliate') }} </a>
+                   
                     <a href="{{ $brand->website_url }}" class="btn btn-sm btn-primary" target="_blank"
                         onclick="addClickLog('baaboo.com_new_order');">
                         <i class="bi bi-plus-circle me-1"></i> {{ __('New Order') }}
