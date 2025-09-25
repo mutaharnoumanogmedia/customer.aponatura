@@ -29,7 +29,9 @@ use Illuminate\Support\Facades\App;
 |
 */
 
-Route::get('/', [HomeController::class , 'index']);
+Route::get('/', function () {
+    return redirect()->route('customer.login.form');
+});
 
 Route::get('/offline', function () {
     return view('pwa.offline');
@@ -113,7 +115,8 @@ Route::prefix("admin")->group(function () {
 //customer panel routes
 Route::prefix("customer")
     ->middleware([
-        'web', 'detect.brand'
+        'web',
+        'detect.brand'
     ])->group(function () {
         Route::get('login', [LoginController::class, 'showCustomerLoginForm'])->name('customer.login.form');
         Route::post('login', [LoginController::class, 'customerLogin'])->name('customer.login.submit');
