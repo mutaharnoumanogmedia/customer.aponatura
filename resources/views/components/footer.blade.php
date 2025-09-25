@@ -2,19 +2,19 @@
     <div class="container">
         <div class="d-flex justify-content-center gap-3 mb-2">
             <small class="text-muted">
-                <a href="https://baaboo.com/pages/impressum" target="_blank" class="text-decoration-none text-muted">
+                <a href="https://legal.aponatura.de/impressum" target="_blank" class="text-decoration-none text-muted">
                     Imprint
                 </a>
                 |
             </small>
             <small class="text-muted">
-                <a href="https://legal.baaboo.com/agb" target="_blank" class="text-decoration-none text-muted">
+                <a href="https://legal.aponatura.de/agb" target="_blank" class="text-decoration-none text-muted">
                     General Terms and Conditions
                 </a>
                 |
             </small>
             <small class="text-muted">
-                <a href="https://baaboo.com/datenschutzerklaerung" target="_blank"
+                <a href="https://legal.aponatura.de/datenschutz" target="_blank"
                     class="text-decoration-none text-muted">
                     Privacy Policy
                 </a>

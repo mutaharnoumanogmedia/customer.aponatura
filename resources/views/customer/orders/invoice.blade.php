@@ -181,7 +181,7 @@
 
         {{-- Vendor & Storage --}}
         <div class="row mb-4">
-            <div class="col-md-6 mb-4">
+            {{-- <div class="col-md-6 mb-4">
                 <div class="card h-100 ">
                     <div class="card-header bg-secondary text-white d-flex align-items-center">
                         <i class="bi bi-shop me-2"></i>
@@ -226,7 +226,7 @@
                         </p>
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
 
         {{-- Payments --}}
