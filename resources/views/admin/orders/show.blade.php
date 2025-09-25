@@ -115,11 +115,7 @@
                                 <span class="text-muted"><i class="bi bi-credit-card me-2"></i>{{ __('Payment') }}</span>
                                 <span>{{ ucfirst($details['payment_provider'] ?? '') }}</span>
                             </div>
-                            <div class="d-flex justify-content-between mb-3">
-                                <span class="text-muted"><i
-                                        class="bi bi-receipt me-2"></i>{{ __('Transaction ID') }}</span>
-                                <span class="text-truncate">{{ $details['transaction_id'] ?? '' }}</span>
-                            </div>
+                            
                             <hr>
                             <div class="d-flex justify-content-between mb-2">
                                 <span class="text-muted"><i class="bi bi-cart me-2"></i>{{ __('Subtotal') }}</span>

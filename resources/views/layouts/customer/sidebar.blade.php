@@ -58,8 +58,7 @@
                 </a>
             </li> --}}
             <li class="sidebar-item ">
-                <a href="javascript:void(0);" class="sidebar-link"
-                    onclick="confirmSupportRedirect('{{ Session::get('support_magic_link') }}')">
+                <a href="http://support.aponatura.de" target="_blank" class="sidebar-link">
                     <i class="bi bi-headset"></i>
                     <span class="notranslate">{{ __('Contact Support') }}</span>
                 </a>
