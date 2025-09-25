@@ -1,9 +1,9 @@
 {
-    "name": "Kundenportal baaboo",
-    "short_name": "baaboo portal",
+    "name": "Kundenportal Aponatura",
+    "short_name": "Aponatura portal",
     "start_url": "/",
     "background_color": "#ffffff",
-    "description": "kundenportal baaboo",
+    "description": "kundenportal Aponatura",
     "display": "fullscreen",
     "theme_color": "#ff5f00",
     "icons": [

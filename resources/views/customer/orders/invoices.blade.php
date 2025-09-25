@@ -31,7 +31,9 @@
                                         <td class="fw-semibold">{{ $invoice['invoice_number_id'] }}</td>
                                         <td>{{ $invoice['datevuebertrag'] ? \Carbon\Carbon::parse($invoice['datevuebertrag'])->format('d. F Y') : '-' }}
                                         </td>
-                                        <td>€ {{ number_format($invoice['shippingcosts'] / 100, 2, ',', '.') }}</td>
+                                        <td>€
+                                            {{ number_format(($invoice['payments'][0]['amount'] ?? 0) / 100, 2, ',', '.') }}
+                                        </td>
                                         <td>{{ $invoice['order_reference'] ?? '-' }}</td>
                                         <td>
                                             @if ($invoice['payment_date'])

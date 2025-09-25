@@ -41,7 +41,7 @@
     @laravelPWA
 
 
-\
+    \
 
 </head>
 
@@ -186,7 +186,7 @@
                                 </div>
                             </a> --}}
 
-                            <a class="dropdown-item dropdown-item-enhanced" href="{{ route('customer.settings') }}">
+                            {{-- <a class="dropdown-item dropdown-item-enhanced" href="{{ route('customer.settings') }}">
                                 <div class="dropdown-item-icon">
                                     <i class="bi bi-gear"></i>
                                 </div>
@@ -194,7 +194,7 @@
                                     <div class="item-title">{{ __('Settings') }}</div>
                                     <div class="item-subtitle">{{ __('Preferences & privacy') }}</div>
                                 </div>
-                            </a>
+                            </a> --}}
 
                             <div class="dropdown-divider"></div>
 
