@@ -65,9 +65,9 @@
                 </a>
             </li>
 
-            <li>
+            {{-- <li>
                 <div class="sidebar-divider"></div>
-            </li>
+            </li> --}}
             {{-- <li class="sidebar-item">
                 <a href="{{ route('customer.profile') }}" class="sidebar-link">
                     <i class="bi bi-person"></i>

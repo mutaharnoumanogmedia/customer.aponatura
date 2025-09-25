@@ -173,7 +173,7 @@
                                 </div>
                             </div>
 
-                            {{-- <div class="dropdown-divider"></div> --}}
+                            <div class="dropdown-divider"></div>
 
                             <!-- Menu Items -->
                             {{-- <a class="dropdown-item dropdown-item-enhanced" href="{{ route('customer.profile') }}">
@@ -196,7 +196,7 @@
                                 </div>
                             </a>
 
-                            {{-- <div class="dropdown-divider"></div> --}}
+                            <div class="dropdown-divider"></div>
 
                             <a class="dropdown-item dropdown-item-enhanced logout-item" href="#"
                                 onclick="document.getElementById('logout-form').submit();">
