@@ -23,7 +23,6 @@
 
 
     <!-- Custom CSS -->
-    {{-- @vite(['resources/sass/app.scss']) --}}
     <link rel="stylesheet" href="{{ asset('css/style.css' . '?' . time()) }}">
     <link rel="stylesheet" href="{{ asset('css/addon.css' . '?' . time()) }}">
 

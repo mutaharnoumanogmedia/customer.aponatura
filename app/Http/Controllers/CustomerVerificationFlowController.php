@@ -20,7 +20,7 @@ class CustomerVerificationFlowController extends Controller
                 'orders' => [],
             ], 200);
         }
-
+ 
         switch ($verification_type) {
             case 'email':
                 return $this->verifyByEmail($verification_value);

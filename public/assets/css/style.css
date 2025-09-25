@@ -1,12 +1,12 @@
 :root {
     --sidebar-width: 240px;
-    --primary-color: #ed230d;
-    --secondary-color: #1e293b;
-    --dark-color: #000000;
+    --primary-color: #ff5f00;
+    --secondary-color: #0D0D0D;
+    --dark-color: #0D0D0D;
     --light-color: #f1f5f9;
-    --primary-color-shadow: rgba(237, 35, 13, 0.2);
-    --gradient-1: linear-gradient(135deg, var(--primary-color) 0%, var(--primary-color) 100%);
-    --gradient-2: linear-gradient(135deg, var(--secondary-color) 0%, #334155 100%);
+    --primary-color-shadow: rgba(255, 95, 0, 0.2);
+    --gradient-1: linear-gradient(135deg, #ff5f00 0%, #ff8533 100%);
+    --gradient-2: linear-gradient(135deg, #0D0D0D 0%, #334155 100%);
     --card-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
     --card-shadow-hover: 0 10px 5px rgba(0, 0, 0, 0.15);
 }
@@ -422,8 +422,8 @@ body {
 }
 
 .btn-primary {
-    background-color: var(--primary-color) !important;
-    border-color: var(--primary-color) !important;
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
     padding: 0.75rem;
     border-radius: 8px;
     font-weight: 500;
@@ -495,7 +495,7 @@ body {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 /* Responsive */
@@ -696,7 +696,7 @@ body {
 }
 
 .dashboard-stat-card.bg-primary:hover {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%) !important;
+    background: linear-gradient(135deg, #ff8533 0%, #ff5f00 100%) !important;
 }
 
 
@@ -738,7 +738,7 @@ body {
 
 /* Carousel Styles */
 #promotionalCarousel {
-    border-radius: 20px;
+    border-radius: 10px;
     overflow: hidden;
     box-shadow: var(--card-shadow);
     margin-bottom: 2rem;
@@ -1041,9 +1041,9 @@ body {
 }
 
 .sidebar:hover {
-    transform: perspective(1000px) rotateY(0deg) translateY(-5px);
+    transform: perspective(100px) rotateY(0deg) translateY(-1px);
     box-shadow:
-        0 35px 70px -12px rgba(0, 0, 0, 0.35),
+        0 35px 20px -12px rgba(0, 0, 0, 0.35),
         0 0 0 1px rgba(255, 255, 255, 0.15),
         inset 0 1px 0 rgba(255, 255, 255, 0.25);
 }
@@ -1155,7 +1155,7 @@ body {
     color: #64748b;
     text-decoration: none;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    border-radius: 16px;
+    border-radius: 10px;
     margin: 0 1rem;
     position: relative;
     overflow: hidden;
@@ -1186,7 +1186,7 @@ body {
     top: 50%;
     width: 0;
     height: 0;
-    background: linear-gradient(135deg, var(--primary-color), var(--primary-color));
+    background: linear-gradient(135deg, var(--primary-color), #ff8533);
     border-radius: 0 10px 10px 0;
     transition: all 0.3s ease;
     transform: translateY(-50%);
@@ -1205,10 +1205,7 @@ body {
     border: 1px solid rgba(255, 95, 0, 0.2);
     font-weight: 600;
     transform: translateX(8px) translateY(-2px);
-    box-shadow:
-        0 10px 25px rgba(255, 95, 0, 0.2),
-        0 4px 10px rgba(0, 0, 0, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.1);
+
 }
 
 .sidebar-link:hover::after,
@@ -1432,7 +1429,7 @@ body {
 }
 
 .profile-header {
-    background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+    background: linear-gradient(135deg, var(--primary-color) 0%, #ff5f0099 100%);
     padding: 2rem;
     text-align: center;
     color: white;
