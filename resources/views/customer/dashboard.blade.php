@@ -25,7 +25,7 @@
                     <a href="{{ $affiliate_register_link }}" class="btn btn-sm btn-success me-4" target="_blank"
                         onclick="addClickLog('partner.baaboo.com_affiliate_link');">
                         <i class="bi bi-people-fill me-1"></i> {{ __('Become an affiliate') }} </a>
-                    <a href="{{ $brand->website_url }}" class="btn btn-sm btn-primary" target="_blank", rel="noopener"
+                    <a href="{{ $brand->website_url }}" class="btn btn-sm btn-primary" target="_blank"
                         onclick="addClickLog('baaboo.com_new_order');">
                         <i class="bi bi-plus-circle me-1"></i> {{ __('New Order') }}
                     </a>
