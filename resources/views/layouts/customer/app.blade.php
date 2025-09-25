@@ -41,8 +41,6 @@
     @laravelPWA
 
 
-    \
-
 </head>
 
 <body>
