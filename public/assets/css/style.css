@@ -367,7 +367,7 @@ body {
 
 .login-image {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
-        url('../../assets/images/customer-portal.webp') no-repeat center center;
+        url('../../assets/images/login-banner.png') no-repeat center center;
     background-size: cover;
     height: 100vh;
     display: flex;
