@@ -13,18 +13,19 @@ class LocaleService
     public function detectAndSetLocale($ip)
     {
         if (!Session::has('locale')) {
-            $location = Location::get($ip);
-            $country = $location->countryName ?? "Unknown";
-            // Log::info("Detected country: " .     $country);
-            // Log::info("IP: " .  $ip);
+            Session::put('locale', 'de');
+            // $location = Location::get($ip);
+            // $country = $location->countryName ?? "Unknown";
+            // // Log::info("Detected country: " .     $country);
+            // // Log::info("IP: " .  $ip);
 
-            if (in_array($country, ['Germany', 'Austria', 'Switzerland'])) {
-                App::setLocale('de');
-                Session::put('locale', 'de');
-            } else {
-                App::setLocale('en');
-                Session::put('locale', 'en');
-            }
+            // if (in_array($country, ['Germany', 'Austria', 'Switzerland'])) {
+            //     App::setLocale('de');
+            //     Session::put('locale', 'de');
+            // } else {
+            //     App::setLocale('en');
+            //     Session::put('locale', 'en');
+            // }
         } else {
             App::setLocale(Session::get('locale'));
         }
